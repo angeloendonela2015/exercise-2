@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @region.name %>
+</p>
+
+<p>
+  <strong>Subtitle:</strong>
+  <%= @region.subtitle %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @region.description %>
+</p>
+
+<p>
+  <strong>Main image:</strong>
+  <%= @region.main_image %>
+</p>
+
+<p>
+  <strong>Thumb image:</strong>
+  <%= @region.thumb_image %>
+</p>
+
+<%= link_to 'Edit', edit_region_path(@region) %> |
+<%= link_to 'Back', regions_path %>
